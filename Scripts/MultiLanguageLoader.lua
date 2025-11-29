@@ -5,6 +5,6 @@ function MultiLanguage:OnInit()
 	-- self.language = CS.TFMgr.Instance.Language
 	self.language = "en"
 
-	local folderPath = CS.ModsMgr.Instance.GetFolderPath("Language/Mods/" .. "Jai_Test" .. "/" .. self.language .. ".txt")
+	local folderPath = CS.ModsMgr.Instance:GetFolderPath("Language/Mods/" .. "Jai_Test" .. "/" .. self.language .. ".txt")
 	CS.TFMgr.Instance:LoadLangKvFile(folderPath)
 end
