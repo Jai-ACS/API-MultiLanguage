@@ -1,0 +1,3 @@
+Key	Value
+快捷键连接器	Hotkey Adapter
+连接器	Adapter
