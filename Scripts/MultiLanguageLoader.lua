@@ -1,4 +1,4 @@
-local MultiLanguage = MultiLanguage or {}
+MultiLanguage = MultiLanguage or {}
 
 function MultiLanguage:OnInit()
 	xlua.private_accessible(CS.TFMgr)
